@@ -1,0 +1,320 @@
+/* header */
+.header-bg{
+    background-image: url('../img/banner.png');
+    width: 100%;
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;   
+}
+/* აქ არის ჰედერს შადოვ ფონი */
+.header-bg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+}
+/* აქედან იწყება ნავიგაცია და ლოგო */
+
+.container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.p-relative{
+    position: relative;
+}
+/* base element */
+.d-flex{
+    display: flex;
+}
+
+.d-font{
+    font-family: 'Poppins';
+}
+.navigation-wraper{
+    justify-content: space-between;
+}
+.nav-li{
+    margin-right: 49px;
+}
+
+.nav-a{
+    color: #fff;
+}
+.down-box{
+    position: absolute;
+    top: 146px;
+    color: #fff;
+    
+}
+/* აქედან იწყება ჰედერის about-us  */
+.home,
+.about-us{
+    display: inline-block;
+    
+
+}
+/* ეს არის home about us ის შუაში გამყოფი ხაზი */
+.home::after{
+    content: '';
+    width: 2px;
+    height: 19px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 16.5px 0 14.5px;
+}
+/* აქედან იწყება სექცია 1 */
+.left-block{
+    width: 444px;
+    margin-right: 108px;
+    
+
+}
+.left-block h3{
+    font-size: 14px;
+    color: #5863F8;
+    font-style: bold;
+    margin-top: 1px;
+}
+.left-block h4{
+    font-size: 42px;
+    color: #000000;
+    margin-bottom:14px;
+
+}
+.left-block p{
+    font-size: 16px;
+}
+.p {
+    margin-bottom: 14px;
+}
+.Read{
+background-color: #5863F8;
+padding: 15px;
+border-style: none;
+border-width: 5px;
+color: white;
+border-radius: 10px;
+width: 150px;
+margin-top: 20px;
+text-align: center;
+
+}
+.right-block{
+    margin: 90px 0 90px 0;
+}
+.image1{
+    margin-right: 16px;
+}
+.image-wraper{
+    margin: 16px 0 16px 0;
+}
+.left-block{
+    width: 444px;
+    margin: 128px 108px 125px 0;
+}
+/* აქედან იწყება სექცია 2 */
+.bg-section{
+    background-image: url('../img/banner2.jpg');
+    width: 100%;
+    height: 612px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0 90px 0;
+}
+.section-p{
+    font-size: 42px;
+    max-width: 376px;
+    width: 100%;
+}
+.box-wraper{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    max-width: 260px;
+    max-height: 260px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.blue-bg{
+    background-color: #5863F8;
+    border-radius: 30px;
+    width: 59px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 100px 15px 100px;
+}
+.box h2{
+    color: #000;
+    font-size: 18px;
+    max-width: 200px;
+    padding: 2px 0 2px 0;
+    width: 100%;
+    text-align: center;
+}
+.box p{
+    color: #B1B1B1;
+    font-size: 14px;
+    width: 221px;
+    text-align: center;
+    margin: 24px 19px 26px 20px;
+}
+/* აქედან იწყება მესამე სექცია */
+.left-box{
+    width: 432px;
+    margin: 75px 212px 105px 0px;
+}
+.left-box h2{
+    font-size: 14px;
+    color:#5863F8;
+    margin-top: 
+
+}
+
+.left-box h3{
+    font-size: 42px;
+    color: #000000;
+    margin-bottom: 36px;
+}
+.left-box h4{
+    font-size: 18px;
+    color: #000000;
+}
+.left-box p {
+    font-size: 14px;
+}
+.img-p{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+.img{
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+/* აქედან იწყება სექცია 4 */
+.top-box h2{
+    
+    font-size: 16px;
+    color:#5863F8;
+    margin-left: 139px;
+    margin-top: 59px;
+    
+}
+.top-box h3{
+    font-size: 42px;
+    width: 475px;
+    margin-left: 139px;
+
+}
+/* აქედან იწყება ფუტერი */
+.footer{
+    background: #121212;
+    padding: 50px;
+}
+.footer .col_1{
+    width: 260px;
+    color:#B1B1B1;
+    font-size: 14px;
+}
+.footer_menu .title{
+    font-size: 24px;
+}
+.footer .footer_menu{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 25px;
+    justify-content: space-between;
+
+}
+.footer .footer_menu .title{
+    margin-bottom: 10px;
+    color:#fff;
+
+}
+.footer .footer_menu ul li a {
+    display: block;
+    margin-bottom: 6px;
+    color: #454DBC;
+
+}
+.footer .contact-info1 {
+    color:#fff;
+}
+.footer .footer_menu ul li a:hover{
+    text-decoration: underline;
+
+}
+.footer .contact-info1-1, .contact-info2-1, .contact-info3-1{
+    color:#fff
+}
+.footer .contact-info1::before{
+    content: ' ';
+    width: 16.04px;
+    height: 12.83;
+    border-color: #5863F8;
+    background-color: #5863F8;
+    display: inline-block;
+    background-image: url("/img/mail.svg");
+
+}
+
+.footer .social_media ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+.footer .social_media ul li a{
+    display: block;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #222222;
+    line-height: 50px;
+    border-radius: 3px;
+
+
+}
+.footer .social_media ul li a:hover{
+    color: red;
+}
+.footer .social_media ul li a.facebook:hover{
+    background: #3b5998;
+    
+}
+
+.footer .social_media ul li a.twitter:hover{
+    background: #1da1f2;
+}
+.footer .social_media ul li a.instagram:hover{
+    background: #c32aa3;
+}
+.footer .social_media ul li a.google:hover{
+    background: #25d366;
+}
+.footer .social_media{
+    color: #adadad; 
+
+}
+

@@ -1,0 +1,22 @@
+@media (max-width:1920px){
+    .section-img3{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:1072px){
+    .section-img3, .container, .footer{
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
+@media (max-width:730px){
+    .section-img3, .container, .footer{
+        flex-wrap: wrap;
+        justify-content: left;
+        font-size: 10px;
+    }
+    .nav{
+        flex-wrap: wrap;
+    }
+}
